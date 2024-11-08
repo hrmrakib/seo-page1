@@ -1,8 +1,17 @@
-import { BsStack } from "react-icons/bs";
-import { PiNotepadFill } from "react-icons/pi";
-import { FaRegComments } from "react-icons/fa6";
-import { GrAttachment } from "react-icons/gr";
-import { MdOutlineCalendarMonth } from "react-icons/md";
+// import { BsStack } from "react-icons/bs";
+// import { PiNotepadFill } from "react-icons/pi";
+// import { FaRegComments } from "react-icons/fa6";
+// import { GrAttachment } from "react-icons/gr";
+// import { MdOutlineCalendarMonth } from "react-icons/md";
+
+const incomplete = [
+  {
+    id: 1,
+    title: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+    client: "Client Name",
+    assignee: "Sadik Istiak",
+  },
+];
 
 const Incomplete = () => {
   return (
@@ -31,13 +40,13 @@ const Incomplete = () => {
           </div>
           <div className='my-2 flex items-center justify-between'>
             <div className='flex items-center gap-1'>
-              <BsStack />
+              {/* <BsStack /> */}
               <p className='text-sm text-gray-800 font-medium'>
                 Lorem ipsum, dolor sit amet consc...
               </p>
             </div>
             <div className='bg-[#F2F4F7] p-1.5 rounded-md flex items-center gap-1'>
-              <PiNotepadFill />
+              {/* <PiNotepadFill /> */}
               <span className='text-sm font-bold'>1/2</span>
             </div>
           </div>
@@ -49,7 +58,7 @@ const Incomplete = () => {
               <span>12+</span>
             </div>
             <div className='flex items-center gap-1 cursor-pointer'>
-              <FaRegComments />
+              {/* <FaRegComments /> */}
               <span className='text-sm'>12</span>
             </div>
 
@@ -59,12 +68,12 @@ const Incomplete = () => {
                 htmlFor='file-upload'
                 className='flex items-center gap-1 cursor-pointer'
               >
-                <GrAttachment />
+                {/* <GrAttachment /> */}ATT
               </label>
               <span className='text-sm'>0</span>
             </div>
             <div className='flex items-center gap-1'>
-              <MdOutlineCalendarMonth />
+              {/* <MdOutlineCalendarMonth /> */}
               <span className='cursor-pointer text-sm'>2022-01-01</span>
             </div>
           </div>
